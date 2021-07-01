@@ -9,8 +9,7 @@ client.on("ready", () => {
 client.on("voiceStateUpdate",(oldstate,newstate)=>{
   const user = client.users.fetch(newstate.id);
   const member = newstate.member;
-  var role= member.guild.roles.cache.find(role => role.name === "FlagShipStedier");
-  member.roles.add(role).catch(console.error);
+  member.roles.add("624852974103035905").catch(console.error);
   });
 
 keepAlive()
