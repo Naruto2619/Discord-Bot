@@ -9,7 +9,7 @@ client.on("ready", () => {
 client.on("voiceStateUpdate",(oldstate,newstate)=>{
   const user = client.users.fetch(newstate.id);
   const member = newstate.member;
-  member.roles.add("624852974103035905").catch(console.error);
+  member.roles.add("859740424881045504").catch(console.error);
   });
 
 keepAlive()
